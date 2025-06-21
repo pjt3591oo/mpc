@@ -1,0 +1,27 @@
+{
+  "name": "mpc-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run",
+    "test:ko": "vitest run tests/tss.ko.test.js",
+    "test:en": "vitest run tests/tss.en.test.js",
+    "test:watch": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@noble/secp256k1": "^2.3.0",
+    "bn.js": "^5.2.2",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.2.0",
+    "elliptic": "^6.6.1",
+    "secrets.js-grempe": "^2.0.0",
+    "shamir-secret-sharing": "^0.0.4"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
+}
