@@ -193,6 +193,3 @@ node user-tss.mjs
 4. 브랜치를 푸시하세요 (`git push origin feature/amazing-feature`)
 5. Pull Request를 제출하세요
 
-## 라이센스
-
-ISC License - 자세한 내용은 LICENSE 파일을 참조하세요.
