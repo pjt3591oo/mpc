@@ -418,7 +418,6 @@ class TSSSecurityValidator {
   }
 }
 
-// Export the TSS implementation
 export {
   TrueThresholdSignature,
   TSSSecurityValidator
